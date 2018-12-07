@@ -9,6 +9,23 @@
  
   <name>Mov-List Catalogue</name>
  
+  <platform name="android">
+ 	<icon src="images/ldpi.jpg" density="ldpi"/>
+ 	<icon src="images/mdpi.jpg" density="mdpi"/>
+ </platform>
+
+  <preference name="orientation" value="portrait" />
+  <preference name="fullscreen" value="true" />
+  <preference name="KeepRunning" value="false"/>
+  <preference name="SplashScreen" value="screen"/>
+  <preference name="ShowSplashScreenSpinner" value="false"/>
+  <preference name="android-build-tool" value="gradle" />  
+ 
+  <plugin name="cordova-plugin-splashscreen" source="npm" />
+
+ <splash src="images/splash/ldpi.png" platform="android" qualifier="ldpi"/>
+ <splash src="images/splash/mdpi.png" platform="android" qualifier="mdpi"/>
+    
   <description>
       kumpulan film terbaru, yang sedang trending, yang belum rilis. semua ada disini
   </description>
